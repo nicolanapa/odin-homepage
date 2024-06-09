@@ -23,14 +23,15 @@
 	justify-content: flex-end;
 	align-items: center;
 	position: relative;
-	max-height: 400px;
+	max-height: 900px;
 }
 
 .about-me-section {
 	background-color: white;
-    width: 80%;
+    width: 90%;
+    max-width: 600px;
 	padding: 30px 15px;
-	margin: 6% 8% 6% 0;
+	margin: 8% 6% 8% 0;
 	box-shadow: 1.5px 2px 5px -2px gray;
 }
 
