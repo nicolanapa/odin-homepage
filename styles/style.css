@@ -9,12 +9,12 @@
 .header-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	position: relative;
-}
+	margin-bottom: 20px;
+	padding: 30px 5px;
 
-.top-background {
-	position: absolute;
-	top: 0;
+	background-image: url("../images/blueHalfBackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #about-me-image {
@@ -25,15 +25,22 @@
 .about-me-section {
 	background-color: white;
 	padding: 30px 15px;
-    margin: 5% 5% 5% 0
+	margin: 6% 4% 6% 0;
+	box-shadow: 1.5px 2px 5px -2px gray;
+}
+
+.about-me-section > p {
+	margin-top: 20px;
 }
 
 .icons-end {
-    display: flex;
-    justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10% 2.5% 0 0;
+	gap: 10px;
 }
 
 .title {
-    font-size: calc(1rem + 1vw);
-    font-weight: 800;
+	font-size: calc(1rem + 1vw);
+	font-weight: 600;
 }
