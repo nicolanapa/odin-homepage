@@ -10,8 +10,14 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	justify-items: center;
+	position: relative;
+}
+
+.top-background {
+	position: absolute;
+	top: 0;
 }
 
 #about-me-image {
-	position: absolute;
+	justify-content: end;
 }
