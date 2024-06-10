@@ -28,8 +28,8 @@
 
 .about-me-section {
 	background-color: white;
-    width: 90%;
-    max-width: 600px;
+	width: 90%;
+	max-width: 600px;
 	padding: 30px 15px;
 	margin: 8% 6% 8% 0;
 	box-shadow: 1.5px 2px 5px -2px gray;
@@ -52,5 +52,25 @@
 }
 
 .description {
-    font-weight: 300;
+	font-weight: 300;
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	margin-bottom: 40px;
+	padding: 30px 5px;
+	gap: 2.5%;
+}
+
+.main-container .title {
+	display: flex;
+}
+
+.project {
+	box-shadow: 2px 3px 5px -2px gray;
+}
+
+.project > img {
+	max-width: 400px;
 }
