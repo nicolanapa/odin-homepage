@@ -127,3 +127,16 @@ main .title {
 .icons-gap {
 	gap: 10px;
 }
+
+p {
+	font-size: calc(1rem + 0.1vw);
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
