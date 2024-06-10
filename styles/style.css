@@ -87,3 +87,27 @@ main .title {
 	justify-content: space-between;
 	margin-bottom: -15px;
 }
+
+.footer-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+	padding: 20px 15px;
+	margin: 8% 6% 8% 0;
+	background-color: #1d85fa;
+}
+
+.contact-me-text {
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+
+.contact-me-text .description {
+	margin-bottom: 15px;
+}
+
+#contact-me-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
