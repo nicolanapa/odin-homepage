@@ -52,7 +52,7 @@
 }
 
 .description {
-	font-weight: 300;
+	font-weight: 250;
 }
 
 .main-container {
@@ -76,12 +76,13 @@ main .title {
 	max-width: 400px;
 }
 
+.project > div,
+.project > p {
+	padding: 15px 20px;
+}
+
 .project > div {
 	display: flex;
 	justify-content: space-between;
-}
-
-.project > div,
-.project > p {
-	padding: 10px 20px;
+	margin-bottom: -15px;
 }
