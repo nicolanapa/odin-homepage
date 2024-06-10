@@ -43,7 +43,6 @@
 	display: flex;
 	justify-content: flex-end;
 	margin: 10% 2.5% 0 0;
-	gap: 10px;
 }
 
 .title {
@@ -59,7 +58,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(max(400px, (100% - (4 - 1) * 2.5%) / 4), 1fr));
 	justify-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	padding: 5px 2% 30px 2%;
 	gap: 2.5%;
 }
@@ -91,8 +90,10 @@ main .title {
 .footer-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-	padding: 20px 15px;
-	margin: 8% 6% 8% 0;
+	justify-items: center;
+	padding: 4% 10%;
+
+	color: white;
 	background-color: #1d85fa;
 }
 
@@ -106,8 +107,23 @@ main .title {
 	margin-bottom: 15px;
 }
 
+.contact-info {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5px;
+	gap: 5px;
+}
+
+.contact-me-text > div {
+	margin: 10px 0;
+}
+
 #contact-me-image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.icons-gap {
+	gap: 10px;
 }
