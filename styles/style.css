@@ -89,7 +89,7 @@ main .title {
 
 .footer-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	justify-items: center;
 	padding: 4% 10%;
 
