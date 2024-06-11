@@ -106,10 +106,6 @@ p {
 	font-size: calc(1rem + 0.1vw);
 }
 
-/*
-	Add styles, size, width...
-*/
-
 @media only screen and (max-width: 600px) {
 	/* Header */
 	.header-container {
