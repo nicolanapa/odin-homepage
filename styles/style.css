@@ -39,6 +39,7 @@
 }
 
 .title {
+	display: flex;
 	font-size: calc(1rem + 1vw);
 	font-weight: 600;
 }
@@ -51,10 +52,6 @@
 .main-container {
 	display: grid;
 	justify-items: center;
-}
-
-main .title {
-	margin: 30px 0 10px 30px;
 }
 
 .project {
@@ -142,8 +139,12 @@ p {
 		background-color: white;
 		width: 95%;
 		max-width: 600px;
-		padding: 5px;
+		padding: 2.5px;
 		margin: 4% 0 8% 0;
+	}
+
+	.title {
+		justify-content: center;
 	}
 
 	/* Main */
@@ -179,6 +180,10 @@ p {
 		align-items: flex-start;
 	}
 
+	main .title {
+		margin: 30px 0 10px 30px;
+	}
+
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -212,7 +217,11 @@ p {
 		justify-content: flex-end;
 		align-items: center;
 	}
-	
+
+	main .title {
+		margin: 30px 0 10px 30px;
+	}
+
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(max(400px, (100% - (4 - 1) * 2.5%) / 4), 1fr));
