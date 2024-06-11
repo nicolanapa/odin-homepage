@@ -229,9 +229,6 @@ p {
 		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 		justify-items: center;
 		padding: 3% 7%;
-
-		color: white;
-		background-color: #1d85fa;
 	}
 }
 
@@ -296,8 +293,5 @@ p {
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 		justify-items: center;
 		padding: 3% 10%;
-
-		color: white;
-		background-color: #1d85fa;
 	}
 }
