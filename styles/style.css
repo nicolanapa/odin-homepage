@@ -8,9 +8,6 @@
 
 .header-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	margin-bottom: 40px;
-	padding: 30px 5px;
 	position: relative;
 
 	background-image: url("../images/blueHalfBackground.png");
@@ -128,7 +125,9 @@ p {
 */
 
 @media only screen and (max-width: 600px) {
-	/* Add a lot of margin between main and footer*/
+	/* Header */
+
+	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		margin-bottom: 170px;
@@ -142,9 +141,14 @@ p {
 	.project > img {
 		max-width: 300px;
 	}
+
+	/* Footer */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
+	/* Header */
+
+	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 		margin-bottom: 170px;
@@ -159,9 +163,14 @@ p {
 	.project > img {
 		max-width: 300px;
 	}
+
+	/* Footer */
 }
 
 @media only screen and (min-width: 1200px) {
+	/* Header */
+
+	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(max(400px, (100% - (4 - 1) * 2.5%) / 4), 1fr));
 		margin-bottom: 70px;
@@ -176,4 +185,6 @@ p {
 	.project > img {
 		max-width: 400px;
 	}
+
+	/* Footer */
 }
