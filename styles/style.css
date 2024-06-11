@@ -25,11 +25,7 @@
 
 .about-me-section {
 	background-color: white;
-	width: 90%;
 	max-width: 600px;
-	padding: 30px 15px;
-	margin: 8% 6% 8% 0;
-	box-shadow: 1.5px 2px 5px -2px gray;
 }
 
 .about-me-section > p {
@@ -141,6 +137,15 @@ p {
 		justify-content: center;
 		align-items: center;
 	}
+
+	.about-me-section {
+		background-color: white;
+		width: 95%;
+		max-width: 600px;
+		padding: 5px;
+		margin: 4% 0 8% 0;
+	}
+
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -171,8 +176,9 @@ p {
 
 	#about-me-image {
 		justify-content: flex-start;
-		align-items: center;
+		align-items: flex-start;
 	}
+
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -202,6 +208,11 @@ p {
 		background-size: 100% 80%;
 	}
 
+	#about-me-image {
+		justify-content: flex-end;
+		align-items: center;
+	}
+	
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(max(400px, (100% - (4 - 1) * 2.5%) / 4), 1fr));
