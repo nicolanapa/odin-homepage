@@ -6,12 +6,12 @@
 	font-family: "Roboto Flex", system-ui;
 }
 
+/* Header */
 .header-container {
 	display: grid;
 	position: relative;
 
 	background-image: url("../images/blueHalfBackground.png");
-	background-size: 100% 80%;
 	background-repeat: no-repeat;
 }
 
@@ -51,6 +51,7 @@
 	font-weight: 250;
 }
 
+/* Main */
 .main-container {
 	display: grid;
 	justify-items: center;
@@ -75,6 +76,7 @@ main .title {
 	margin-bottom: -15px;
 }
 
+/* Footer */
 .footer-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -126,7 +128,19 @@ p {
 
 @media only screen and (max-width: 600px) {
 	/* Header */
+	.header-container {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		justify-content: center;
+		margin-bottom: 40px;
+		padding: 20px 2.5px;
 
+		background-size: 100% 40%;
+	}
+
+	#about-me-image {
+		justify-content: center;
+		align-items: center;
+	}
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -147,7 +161,18 @@ p {
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
 	/* Header */
+	.header-container {
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		margin-bottom: 40px;
+		padding: 30px 3.5px;
 
+		background-size: 100% 80%;
+	}
+
+	#about-me-image {
+		justify-content: flex-start;
+		align-items: center;
+	}
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -169,6 +194,13 @@ p {
 
 @media only screen and (min-width: 1200px) {
 	/* Header */
+	.header-container {
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		margin-bottom: 40px;
+		padding: 30px 5px;
+
+		background-size: 100% 80%;
+	}
 
 	/* Main */
 	.main-container {
