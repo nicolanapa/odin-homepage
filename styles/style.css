@@ -34,7 +34,6 @@
 
 .title {
 	display: flex;
-	font-size: calc(1rem + 1vw);
 	font-weight: 600;
 }
 
@@ -131,7 +130,7 @@ p {
 
 	.about-me-section {
 		background-color: white;
-		width: 95%;
+		width: 100%;
 		max-width: 600px;
 		padding: 2.5px;
 		margin: 4% 0 8% 0;
@@ -140,6 +139,7 @@ p {
 	.title {
 		justify-content: center;
 		margin-bottom: 10px;
+		font-size: calc(1rem + 1.5vw);
 	}
 
 	.icons-end {
@@ -180,6 +180,19 @@ p {
 	#about-me-image {
 		justify-content: flex-start;
 		align-items: flex-start;
+	}
+
+	.about-me-section {
+		background-color: white;
+		width: 90%;
+		max-width: 600px;
+		padding: 30px 15px;
+		margin: 8% 6% 8% 0;
+		box-shadow: 1.5px 2px 5px -2px gray;
+	}
+
+	.title {
+		font-size: calc(1rem + 1vw);
 	}
 
 	main .title {
@@ -223,6 +236,19 @@ p {
 	#about-me-image {
 		justify-content: flex-end;
 		align-items: center;
+	}
+
+	.about-me-section {
+		background-color: white;
+		width: 90%;
+		max-width: 600px;
+		padding: 30px 15px;
+		margin: 8% 6% 8% 0;
+		box-shadow: 1.5px 2px 5px -2px gray;
+	}
+
+	.title {
+		font-size: calc(1rem + 1vw);
 	}
 
 	main .title {
