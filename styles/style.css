@@ -32,12 +32,6 @@
 	margin-top: 20px;
 }
 
-.icons-end {
-	display: flex;
-	justify-content: flex-end;
-	margin: 10% 2.5% 0 0;
-}
-
 .title {
 	display: flex;
 	font-size: calc(1rem + 1vw);
@@ -145,6 +139,14 @@ p {
 
 	.title {
 		justify-content: center;
+		margin-bottom: 10px;
+	}
+
+	.icons-end {
+		display: flex;
+		visibility: visible;
+		justify-content: center;
+		margin-top: 2%;
 	}
 
 	/* Main */
@@ -184,6 +186,11 @@ p {
 		margin: 30px 0 10px 30px;
 	}
 
+	.icons-end {
+		display: none;
+		visibility: hidden;
+	}
+
 	/* Main */
 	.main-container {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -220,6 +227,13 @@ p {
 
 	main .title {
 		margin: 30px 0 10px 30px;
+	}
+
+	.icons-end {
+		display: flex;
+		visibility: visible;
+		justify-content: flex-end;
+		margin: 10% 2.5% 0 0;
 	}
 
 	/* Main */
