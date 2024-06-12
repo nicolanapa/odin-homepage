@@ -167,7 +167,7 @@ p {
 	/* Make the contact me image fill the entire place*/
 }
 
-@media only screen and (min-width: 610px) and (max-width: 1200px) {
+@media only screen and (min-width: 610px) and (max-width: 1000px) {
 	/* Header */
 
 	/* With position or similar make the 
@@ -235,7 +235,7 @@ p {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 	/* Header */
 	.header-container {
 		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
