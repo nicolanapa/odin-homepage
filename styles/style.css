@@ -109,7 +109,7 @@ p {
 @media only screen and (max-width: 610px) {
 	/* Header */
 	.header-container {
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: 1fr;
 		justify-content: center;
 		margin-bottom: 40px;
 		padding: 20px 2.5px;
@@ -179,7 +179,7 @@ p {
 		grid-template-columns: 1fr;
 		justify-items: center;
 		margin: -30px 0 20px 0;
-		padding: 30px 3.5px;
+		padding: 30px 0 30px 10%;
 
 		background-size: 100% 80%;
 	}
@@ -192,21 +192,22 @@ p {
 	.about-me-image-tablet {
 		display: flex;
 		visibility: visible;
+		position: absolute;
+		top: -40px;
+		left: -55px;
 	}
 
 	.about-me-section {
 		display: flex;
+		flex-direction: row;
+		position: relative;
 		background-color: white;
-		width: 100%;
+		width: 65%;
 		max-width: 600px;
 		padding: 30px 15px;
 		margin: 8% 6% 8% 0;
 		box-shadow: 1.5px 2px 5px -2px gray;
 	}
-
-	/*.about-me-section .title {
-		flex-direction: column;
-	}*/
 
 	.title {
 		font-size: calc(1rem + 1vw);
