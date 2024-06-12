@@ -132,9 +132,27 @@ p {
 
 	.about-me-section {
 		background-color: white;
+		position: relative;
 		width: 98%;
 		max-width: 600px;
 		margin: 4% 0 8% 8px;
+	}
+
+	.image-title {
+		display: none;
+		visibility: hidden;
+	}
+
+	.image-title-mobile {
+		visibility: visible;
+		position: absolute;
+		left: calc(50px + 25%);
+		top: -65px;
+
+		font-family: "Montserrat", "Roboto Flex", system-ui;
+		color: white;
+		font-size: 20px;
+		font-weight: 300;
 	}
 
 	.title {
@@ -215,6 +233,16 @@ p {
 		justify-content: center;
 	}
 
+	.image-title {
+		display: none;
+		visibility: hidden;
+	}
+
+	.image-title-mobile {
+		display: none;
+		visibility: hidden;
+	}
+
 	.title {
 		font-size: calc(1rem + 1.1vw);
 	}
@@ -264,7 +292,6 @@ p {
 	}
 
 	#about-me-image {
-		visibility: visible;
 		justify-content: flex-end;
 		align-items: center;
 	}
@@ -283,6 +310,23 @@ p {
 		box-shadow: 1.5px 2px 5px -2px gray;
 	}
 
+	.image-title {
+		visibility: visible;
+		position: absolute;
+		top: 120%;
+		left: -55%;
+
+		font-family: "Montserrat", "Roboto Flex", system-ui;
+		color: white;
+		font-size: 32px;
+		font-weight: 300;
+	}
+
+	.image-title-mobile {
+		display: none;
+		visibility: hidden;
+	}
+
 	.title {
 		font-size: calc(1rem + 1.05vw);
 	}
@@ -295,6 +339,7 @@ p {
 		display: flex;
 		visibility: visible;
 		justify-content: flex-end;
+		position: relative;
 		margin: 10% 2.5% 0 0;
 	}
 
