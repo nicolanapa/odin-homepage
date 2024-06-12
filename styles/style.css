@@ -155,6 +155,11 @@ p {
 		font-weight: 300;
 	}
 
+	.image-title-tablet {
+		display: none;
+		visibility: hidden;
+	}
+
 	.title {
 		justify-content: center;
 		margin-bottom: 10px;
@@ -243,6 +248,18 @@ p {
 		visibility: hidden;
 	}
 
+	.image-title-tablet {
+		visibility: visible;
+		color: white;
+		position: absolute;
+		top: -70px;
+		left: 55%;
+
+		font-family: "Montserrat", "Roboto Flex", system-ui;
+		font-size: 32px;
+		font-weight: 300;
+	}
+
 	.title {
 		font-size: calc(1rem + 1.1vw);
 	}
@@ -323,6 +340,11 @@ p {
 	}
 
 	.image-title-mobile {
+		display: none;
+		visibility: hidden;
+	}
+
+	.image-title-tablet {
 		display: none;
 		visibility: hidden;
 	}
